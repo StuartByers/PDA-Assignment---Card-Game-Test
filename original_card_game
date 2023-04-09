@@ -1,23 +1,32 @@
 # class CardGame:
 
-
-#   def check_for_ace(self, card):
-#     if card.value = 1:
-#       return True
-#     else
-#       return False
+# 1. The identation of each function below needs to be corrected
+  def check_for_ace(self, card):
+    if card.value = 1:
+# 2. Another equals sign needs to be added after the existing equals sign above
+      return True
+    else
+# 3. A colon needs to be added after the 'else' above
+      return False
    
 
-#   dif highest_card(self, card1 card2):
-#   if card1.value > card2.value:
-#     return card
-#   else:
-#     return card2
+  dif highest_card(self, card1 card2):
+# 4. 'dif' needs to be changed to def above
+# 5. A comma needs to be added between 'card1' and 'card2' above
+  if card1.value > card2.value:
+    return card
+# 6. A 1 needs to be added after the 'card' above
+  else:
+    return card2
   
 
 
-# def cards_total(self, cards):
-#   total
-#   for card in cards:
-#     total += card.value
-#     return "You have a total of" + total
+def cards_total(self, cards):
+  total
+# 7. An equals sign, space and then a 0 needs to be added after the 'total' above
+  for card in cards:
+    total += card.value
+    return "You have a total of" + total
+# 8. The 'return' above needs to be backspaced twice
+# 9. A space needs to be added between 'of' and the closing speech mark above
+# 10. The 'total' above needs to be enclosed in parentheses with 'str' preceeding it
